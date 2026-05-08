@@ -1,2 +1,3 @@
 # A-Tale-As-Old-As-Tetris
 I am studying the evolution of game design, development, and software engineering jobs over the past few years. 
+While collecting datasets to create a decision-making tool using Python and Pandas, I plan to scale how much new skills, techniques, and algorithms have been discovered and implemented into creating more advanced, modern video games and prevent a surplus of bugs and inefficiencies. I will also provide information on the places where these skills were recognized within and outside of the US.
