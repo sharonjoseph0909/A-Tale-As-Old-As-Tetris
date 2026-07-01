@@ -8,3 +8,54 @@
 
 
 For my senior research project, I plan on studying the evolution of game design and development over the last 20 to 30 years. I will be creating a decision-advising tool using Python and Pandas that incorporates information from interviews and live quota from software engineers I have connected with through LinkedIn and academic conferences, researching datasets, and online educational websites to provide research that discusses how data and algorithms have implemented new techniques into creating more advanced, modern video games that help prevent a surplus of computing inefficiencies. While collecting datasets to create a decision-making tool using Python and Pandas, I plan to scale how much new skills, tech
+
+
+# 🔐 Project 1 — CipherShift
+
+> **Encode it. Decode it. Crack it.**
+
+---
+
+## Introduction
+
+In this project you will implement a Caesar cipher encoder and decoder in MIPS assembly.
+
+A Caesar cipher is one of the oldest encryption techniques. To encrypt a message, each letter is shifted forward in the alphabet by a fixed number (the **key**). To decrypt, you shift backward by the same key. For example, with a key of 3:
+
+```
+Plain:   HELLO
+Cipher:  KHOOR
+```
+
+Shifting wraps around: `X` with key 3 becomes `A`, `Y` becomes `B`, and so on. Non-letter characters (spaces, punctuation, digits) are **left unchanged**.
+
+Your program will support encoding, decoding, and a brute-force crack mode that tries all 25 possible keys and displays each result — leaving it to the user to spot the real message.
+
+> 🤖 *This project was designed with the assistance of Claude (Anthropic) as a tool for generating and refining the specification.*
+
+---
+
+## How the program will work
+
+The program starts by printing a welcome message and displaying a main menu:
+
+```
+========================================
+  Welcome to CipherShift!
+========================================
+What would you like to do?
+  (1) Encode a message
+  (2) Decode a message
+  (3) Crack a message (brute force)
+  (4) Quit
+```
+
+If the user enters an invalid choice, display the menu again. Selecting `(4)` terminates the program using syscall 10.
+
+### Option 1 – Encode 🔒
+
+```
+Enter a message (max 100 chars): Hello, World!
+Enter shift key (1-25): 3
+Encoded: Khoor, Zruog!
+```
