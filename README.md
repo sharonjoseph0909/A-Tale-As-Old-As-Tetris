@@ -7,6 +7,9 @@
 
 ### Research Solution: In order to spread awareness to undergraduate students, graduate students, and anyone curious in the world of coding in the gaming industry of what they need to know before they land an internship for a gaming company or tech enterprise, I have created a tool that will inform students of what coding languages they need to know, what projects they should be trying to create, and data that lets people brainstorm how they can stay ahead of the game in the gaming industry.
 
-```
-For my senior research project, I plan on studying the evolution of game design and development spanning over the last 25 to 35 years. I will be creating a informational tool using Python and Pandas that incorporates information from online websites with statistical data, researching datasets, and student articles to provide research that discusses how the advancements in gaming have diversified the need for technical abilities as time goes on.
+```For my senior research project, I plan on studying the evolution of game design and development
+spanning over the last 25 to 35 years. I will be creating a informational tool using Python and Pandas
+that incorporates information from online websites with statistical data,
+researching datasets, and student articles to provide research that discusses how
+the advancements in gaming have diversified the need for technical abilities as time goes on.
 ```
