@@ -1,61 +1,12 @@
-# A Tale as Old as Tetris
-
-## Research Question: How have the technical skill requirements for software engineering positions in the video game industry evolved from 2005-2025, and what emerging technologies have contributed most to these changes?
-
-## Research Problem: Students who want to major in Computer Science and become video game designers, developers, or software engineers may not know how much technique and knowledge they will need to acquire beyond what they learn in and outside of the classroom. 
-
-### Research Solution: In order to spread awareness to undergraduate and graduate students of what they need to know before they land an internship for a gaming company or tech enterprise, I have created a tool that will inform and teach students of the history of computer science and software engineering for Gen-Z.
-
-
-For my senior research project, I plan on studying the evolution of game design and development over the last 20 to 30 years. I will be creating a decision-advising tool using Python and Pandas that incorporates information from interviews and live quota from software engineers I have connected with through LinkedIn and academic conferences, researching datasets, and online educational websites to provide research that discusses how data and algorithms have implemented new techniques into creating more advanced, modern video games that help prevent a surplus of computing inefficiencies. While collecting datasets to create a decision-making tool using Python and Pandas, I plan to scale how much new skills, tech
-
-
-# 🔐 Project 1 — CipherShift
-
-> **Encode it. Decode it. Crack it.**
-
+# 👾 - A Tale as Old as Tetris
+> **Sharon Joseph's Research Project**
 ---
+### Research Question: How have the technical skill requirements for software engineering positions in the video game industry evolved from the late millenial era (1980s - early 2000s) to present-day (2020s), and what emerging technologies have contributed most to these changes?
 
-## Introduction
+### Research Problem: Students who want to major in Computer Science and become video game designers, developers, or programmers may not know how much technique and knowledge they will need to acquire beyond what they learn in grade school and university.
 
-In this project you will implement a Caesar cipher encoder and decoder in MIPS assembly.
-
-A Caesar cipher is one of the oldest encryption techniques. To encrypt a message, each letter is shifted forward in the alphabet by a fixed number (the **key**). To decrypt, you shift backward by the same key. For example, with a key of 3:
-
-```
-Plain:   HELLO
-Cipher:  KHOOR
-```
-
-Shifting wraps around: `X` with key 3 becomes `A`, `Y` becomes `B`, and so on. Non-letter characters (spaces, punctuation, digits) are **left unchanged**.
-
-Your program will support encoding, decoding, and a brute-force crack mode that tries all 25 possible keys and displays each result — leaving it to the user to spot the real message.
-
-> 🤖 *This project was designed with the assistance of Claude (Anthropic) as a tool for generating and refining the specification.*
-
----
-
-## How the program will work
-
-The program starts by printing a welcome message and displaying a main menu:
+### Research Solution: In order to spread awareness to undergraduate students, graduate students, and anyone curious in the world of coding in the gaming industry of what they need to know before they land an internship for a gaming company or tech enterprise, I have created a tool that will inform students of what coding languages they need to know, what projects they should be trying to create, and data that lets people brainstorm how they can stay ahead of the game in the gaming industry.
 
 ```
-========================================
-  Welcome to CipherShift!
-========================================
-What would you like to do?
-  (1) Encode a message
-  (2) Decode a message
-  (3) Crack a message (brute force)
-  (4) Quit
-```
-
-If the user enters an invalid choice, display the menu again. Selecting `(4)` terminates the program using syscall 10.
-
-### Option 1 – Encode 🔒
-
-```
-Enter a message (max 100 chars): Hello, World!
-Enter shift key (1-25): 3
-Encoded: Khoor, Zruog!
+For my senior research project, I plan on studying the evolution of game design and development spanning over the last 25 to 35 years. I will be creating a informational tool using Python and Pandas that incorporates information from online websites with statistical data, researching datasets, and student articles to provide research that discusses how the advancements in gaming have diversified the need for technical abilities as time goes on.
 ```
